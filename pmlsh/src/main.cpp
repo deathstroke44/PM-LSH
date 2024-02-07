@@ -82,6 +82,8 @@ int main(int argc, char const* argv[])
 		if (argc > 8) {
 			Config::KNN = std::atoi(argv[8]);
 		}
+
+		Config::t = MyFunc::Ccal_thresh(Config::lowDim, Config::alpha1);
 	}
 	else {
 		std::cout << "Using the default configuration!\n\n";
