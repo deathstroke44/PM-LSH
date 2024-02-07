@@ -6,9 +6,9 @@
 
 void pmLsh::improvedSearchWithKth(DataMetric& highData, DataMetric& highQueryData, DataMetric& lowQueryData, Real_Result& real_result)
 {
-	/*ËÑË÷*/
+	/*ï¿½ï¿½ï¿½ï¿½*/
 #if defined(unix) || defined(__unix__)
-	std::string file = "./experiment/result.csv", file_all = "./experiment/result_all.csv";
+	std::string file = "./../experiment/result.csv", file_all = "./../experiment/result_all.csv";
 #else
 	std::string file = "experiment/result.csv", file_all = "experiment/result_all.csv";
 #endif
