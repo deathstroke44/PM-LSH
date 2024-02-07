@@ -79,7 +79,7 @@ DATATYPE Metric::Cal_MAP(int targetKnn_,Real_Result & real_result_, vector<vecto
 				ap += (double)ct/r;
 			}
     	}
-		map+=ap;
+		map+=ap/targetKnn_;
 	}
 	
 	return map/(float) query_res_.size();
