@@ -56,7 +56,7 @@ dim=300
 K=100
 
 
-./pmlsh $dataset $N $dim $lowDim $c $T $R_min $K
+# ./pmlsh $dataset $N $dim $lowDim $c $T $R_min $K
 
 
 
