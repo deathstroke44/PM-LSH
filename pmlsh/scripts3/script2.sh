@@ -1,4 +1,4 @@
-ccd ../build
+cd ../build
 lowDim=15
 c=1.75
 T=0.2
