@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=200
+dim=150
 dataset=imageNet
 N=2340373
 

@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=1000
+dim=150
 dataset=movielens
 N=10677
 

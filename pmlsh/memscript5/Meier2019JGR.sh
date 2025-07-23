@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=300
+dim=256
 dataset=Meier2019JGR
 N=1000000
 

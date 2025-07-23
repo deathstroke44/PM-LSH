@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=100
+dim=50
 dataset=Yelp
 N=77079
 

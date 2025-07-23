@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=100
+dim=200
 dataset=text-to-image
 N=1000000
 

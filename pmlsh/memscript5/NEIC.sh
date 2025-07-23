@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=300
+dim=256
 dataset=NEIC
 N=1000000
 

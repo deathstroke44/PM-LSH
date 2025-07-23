@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=100
+dim=65
 dataset=lastfm
 N=292385
 

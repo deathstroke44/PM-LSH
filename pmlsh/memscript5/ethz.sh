@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=100
+dim=256
 dataset=ethz
 N=36643
 

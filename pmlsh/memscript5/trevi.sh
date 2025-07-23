@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=200
+dim=4096
 dataset=trevi
 N=99900
 

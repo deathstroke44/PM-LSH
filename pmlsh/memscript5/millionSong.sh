@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=200
+dim=420
 dataset=millionSong
 N=992272
 

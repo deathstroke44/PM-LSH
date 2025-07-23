@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=100
+dim=128
 dataset=siftsmall
 N=10000
 

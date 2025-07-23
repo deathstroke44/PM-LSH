@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=1000
+dim=300
 dataset=word2vec
 N=1000000
 

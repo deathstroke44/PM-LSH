@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=200
+dim=512
 dataset=cifar
 N=50000
 

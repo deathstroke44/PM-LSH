@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=100
+dim=256
 dataset=vcseis
 N=160178
 

@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=100
+dim=300
 dataset=yahoomusic
 N=136736
 

@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=200
+dim=100
 dataset=glove
 N=1192514
 

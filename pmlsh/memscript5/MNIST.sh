@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=200
+dim=784
 dataset=MNIST
 N=69000
 

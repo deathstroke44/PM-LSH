@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=200
+dim=256
 dataset=deep
 N=1000000
 

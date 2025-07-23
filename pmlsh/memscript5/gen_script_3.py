@@ -10,8 +10,8 @@ content=open("big-script-template-1.sh", "r").read()
 for info in dataset_infos:
     ds=info[0]
     n=str(info[1])
-    d=str(info[2])
-    qn=str(info[3])
+    d=str(info[4])
+    qn=str(info[2])
     if not (ds in excludes):
         log_file_name = ds+".sh"
         final_run=final_run+'bash '+log_file_name+' & '

@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=10000
+dim=256
 dataset=uqv
 N=1000000
 

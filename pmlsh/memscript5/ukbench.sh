@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=200
+dim=128
 dataset=ukbench
 N=1097907
 

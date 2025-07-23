@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=200
+dim=500
 dataset=nuswide
 N=268643
 

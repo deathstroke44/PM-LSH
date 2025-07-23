@@ -1,7 +1,7 @@
 cd ../build
 
 K=100
-dim=200
+dim=192
 dataset=audio
 N=53387
 
