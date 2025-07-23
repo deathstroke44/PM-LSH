@@ -19,7 +19,7 @@ void save_to_fvecs(const char* filename, T* &dataset, int n, int d)
 
 
 template<typename T>
-void save_to_fvecsV1(const char* filename, vector<vector<pair<DATATYPE, int>>> queryResult;, int n, int d)
+void save_to_fvecsV1(const char* filename, vector<vector<pair<DATATYPE, int>>> queryResult, int n, int d)
 {
 
   T* dataset = new T[n*d];
