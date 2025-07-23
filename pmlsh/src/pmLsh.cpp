@@ -139,7 +139,7 @@ void pmLsh::improvedSearchWithKth(DataMetric& highData, DataMetric& highQueryDat
 		// 		MyFunc::Printf_Result_Csv(outfile, outData);
 		// 	}
 		// 	MyFunc::Printf_Result_Csv(outall, outData);
-		}
+		// }
 	}
 	else {
 		cout << "error in ofstream outfile(experiment/result.txt) \n";
