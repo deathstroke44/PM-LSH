@@ -81,7 +81,7 @@ void pmLsh::improvedSearchWithKth(DataMetric& highData, DataMetric& highQueryDat
 
 			++pd;
 		}
-		save_to_fvecsV1(Config::test_id.c_str(),(int) queryResult.size(),(int) queryResult[0].size())
+		save_to_fvecsV1(Config::test_id.c_str(),queryResult,(int) queryResult.size(),(int) queryResult[0].size())
 
 		// averageRangeCount = averageRangeCount / lowQueryData.size();
 		// query_time = time.elapsed();
