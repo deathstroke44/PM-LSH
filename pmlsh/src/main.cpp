@@ -83,6 +83,11 @@ int main(int argc, char const* argv[])
 			Config::KNN = std::atoi(argv[8]);
 		}
 
+
+		if (argc > 9) {
+			Config::test_id = argv[9];
+		}
+
 		Config::t = MyFunc::Ccal_thresh(Config::lowDim, Config::alpha1);
 	}
 	else {

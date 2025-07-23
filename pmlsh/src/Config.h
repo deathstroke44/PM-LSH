@@ -22,6 +22,7 @@ public:
 	
 	static string lowDataFilePath;
 	static string lowQueryFilePath;
+	static string test_id;
 	//pivot
 	static int pivotNum;
 	static int pivotRandomCount;
