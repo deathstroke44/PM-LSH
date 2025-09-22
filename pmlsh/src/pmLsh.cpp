@@ -81,65 +81,65 @@ void pmLsh::improvedSearchWithKth(DataMetric& highData, DataMetric& highQueryDat
 
 			++pd;
 		}
-		save_to_fvecsV1(Config::test_id.c_str(),queryResult,(int) queryResult.size(),(int) queryResult[0].size())
+		// save_to_fvecsV1(Config::test_id.c_str(),queryResult,(int) queryResult.size(),(int) queryResult[0].size())
 
-		// averageRangeCount = averageRangeCount / lowQueryData.size();
-		// query_time = time.elapsed();
-		// all_recall = Metric::calRecallAll(real_result, queryResult);
-		// float all_MAP = Metric::Cal_MAP(Config::KNN, real_result, queryResult);
-		// all_overRatio = Metric::calOverRatioAll(real_result, queryResult);
+		averageRangeCount = averageRangeCount / lowQueryData.size();
+		query_time = time.elapsed();
+		all_recall = Metric::calRecallAll(real_result, queryResult);
+		float all_MAP = Metric::Cal_MAP(Config::KNN, real_result, queryResult);
+		all_overRatio = Metric::calOverRatioAll(real_result, queryResult);
 
-		// cout << "\nFINISH QUERY!\n\n";
+		cout << "\nFINISH QUERY!\n\n";
 
-		// int id = Config::KNN / 10;
+		int id = Config::KNN / 10;
 
-		// std::cout << "AVG QUERY TIME:    " << query_time / lowQueryData.size() * 1000 << "ms." << std::endl << std::endl;
-		// std::cout << "TOTAL QUERY TIME:  " << query_time * 1000 << "ms." << std::endl << std::endl;
-		// std::cout << "AVG RECALL:        " << all_recall[id] << std::endl;
-		// std::cout << "AVG MAP:           " << all_MAP << std::endl;
-		// std::cout << "AVG RATIO:         " << all_overRatio[id] << std::endl;
-		// std::cout << "AVG COST:          " << all_cost / highData.size() / lowQueryData.size() << std::endl;
-		// std::cout << "AVG ROUNDS:        " << averageRangeCount << std::endl;
+		std::cout << "AVG QUERY TIME:    " << query_time / lowQueryData.size() * 1000 << "ms." << std::endl << std::endl;
+		std::cout << "TOTAL QUERY TIME:  " << query_time * 1000 << "ms." << std::endl << std::endl;
+		std::cout << "AVG RECALL:        " << all_recall[id] << std::endl;
+		std::cout << "AVG MAP:           " << all_MAP << std::endl;
+		std::cout << "AVG RATIO:         " << all_overRatio[id] << std::endl;
+		std::cout << "AVG COST:          " << all_cost / highData.size() / lowQueryData.size() << std::endl;
+		std::cout << "AVG ROUNDS:        " << averageRangeCount << std::endl;
 
-		// time_t now = std::time(0);
-		// time_t zero_point = 1635153971;//Let me set the time 2021.10.25. 17:27 as the zero point
-		// float date = ((float)(now - zero_point)) / 86400;
-		// outfile.seekp(0, std::ios_base::end); 
-		// int tmp = (int)outfile.tellp();
-		// if (tmp == 0) {
-		// 	outfile << "Dataset,c,k,m,M_NUM,PIVOT,Q_NUM,R_MIN,RATIO,RECALL,AVG_TIME,COST,DATE" << std::endl;
-		// }
-		// outall.seekp(0, std::ios_base::end);
-		// tmp = (int)outall.tellp();
-		// if (tmp == 0) {
-		// 	outall << "Dataset,c,k,m,M_NUM,PIVOT,Q_NUM,R_MIN,RATIO,RECALL,AVG_TIME,COST,DATE" << std::endl;
-		// }
+		time_t now = std::time(0);
+		time_t zero_point = 1635153971;//Let me set the time 2021.10.25. 17:27 as the zero point
+		float date = ((float)(now - zero_point)) / 86400;
+		outfile.seekp(0, std::ios_base::end); 
+		int tmp = (int)outfile.tellp();
+		if (tmp == 0) {
+			outfile << "Dataset,c,k,m,M_NUM,PIVOT,Q_NUM,R_MIN,RATIO,RECALL,AVG_TIME,COST,DATE" << std::endl;
+		}
+		outall.seekp(0, std::ios_base::end);
+		tmp = (int)outall.tellp();
+		if (tmp == 0) {
+			outall << "Dataset,c,k,m,M_NUM,PIVOT,Q_NUM,R_MIN,RATIO,RECALL,AVG_TIME,COST,DATE" << std::endl;
+		}
 
-		// int knn[] = { 1,10,20,30,40,50,60,70,80,90,100 };
-		// for (int t = 0; t < 11; t++)
-		// {
+		int knn[] = { 1,10,20,30,40,50,60,70,80,90,100 };
+		for (int t = 0; t < 11; t++)
+		{
 			
-		// 	vector<DATATYPE> outData;
+			vector<DATATYPE> outData;
 			
-		// 	outData.emplace_back(Config::c_appro);
-		// 	outData.emplace_back(knn[t]);
-		// 	outData.emplace_back(Config::lowDim);
-		// 	outData.emplace_back(Config::M_NUM);
-		// 	outData.emplace_back(Config::pivotNum);
-		// 	outData.emplace_back(lowQueryData.size());
-		// 	outData.emplace_back(Config::search_Radius);
+			outData.emplace_back(Config::c_appro);
+			outData.emplace_back(knn[t]);
+			outData.emplace_back(Config::lowDim);
+			outData.emplace_back(Config::M_NUM);
+			outData.emplace_back(Config::pivotNum);
+			outData.emplace_back(lowQueryData.size());
+			outData.emplace_back(Config::search_Radius);
 
-		// 	outData.emplace_back(all_overRatio[t]);
-		// 	outData.emplace_back(all_recall[t]);
-		// 	outData.emplace_back(query_time / lowQueryData.size() * 1000);
-		// 	outData.emplace_back(DATATYPE(all_cost) / highData.size() / highQueryData.size());
-		// 	outData.emplace_back(date);
+			outData.emplace_back(all_overRatio[t]);
+			outData.emplace_back(all_recall[t]);
+			outData.emplace_back(query_time / lowQueryData.size() * 1000);
+			outData.emplace_back(DATATYPE(all_cost) / highData.size() / highQueryData.size());
+			outData.emplace_back(date);
 			
-		// 	if (knn[t] == 50) {
-		// 		MyFunc::Printf_Result_Csv(outfile, outData);
-		// 	}
-		// 	MyFunc::Printf_Result_Csv(outall, outData);
-		// }
+			if (knn[t] == 50) {
+				MyFunc::Printf_Result_Csv(outfile, outData);
+			}
+			MyFunc::Printf_Result_Csv(outall, outData);
+		}
 	}
 	else {
 		cout << "error in ofstream outfile(experiment/result.txt) \n";
