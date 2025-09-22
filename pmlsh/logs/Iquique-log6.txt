@@ -5,17 +5,17 @@ c=        1.5
 k=        100
 m=        15
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.523595 s.
+FINISH LOADING WITH TIME: 0.374022 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 2.16251 s.
+FINISH HASHING WITH TIME: 2.16771 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 2.07722 s.
+FINISH BUILDING WITH TIME: 2.18757 s.
 
 RUNNING PM-LSH ...
 
@@ -23,36 +23,24 @@ RUNNING PM-LSH ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-
-FINISH QUERY!
-
-AVG QUERY TIME:    126.496ms.
-
-TOTAL QUERY TIME:  12649.6ms.
-
-AVG RECALL:        0.6613
-AVG MAP:           0.548797
-AVG RATIO:         1.01044
-AVG COST:          0.0845954
-AVG ROUNDS:        22.58
-	Command being timed: "./pmlsh Iquique 578853 256 15 1.5 0.1 1.0 100"
-	User time (seconds): 16.64
-	System time (seconds): 0.85
+	Command being timed: "./pmlsh Iquique 578853 256 15 1.5 0.1 1.0 100 Iquique-log6.ivecs"
+	User time (seconds): 16.19
+	System time (seconds): 0.72
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.51
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.92
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1287032
+	Maximum resident set size (kbytes): 1289452
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 326942
-	Voluntary context switches: 0
-	Involuntary context switches: 33
+	Minor (reclaiming a frame) page faults: 327606
+	Voluntary context switches: 1
+	Involuntary context switches: 22
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 112
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

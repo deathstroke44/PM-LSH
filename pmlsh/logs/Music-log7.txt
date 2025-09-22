@@ -5,17 +5,17 @@ c=        1.5
 k=        100
 m=        15
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.285094 s.
+FINISH LOADING WITH TIME: 0.32782 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 1.34758 s.
+FINISH HASHING WITH TIME: 1.35408 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 3.80488 s.
+FINISH BUILDING WITH TIME: 3.95446 s.
 
 RUNNING PM-LSH ...
 
@@ -23,36 +23,24 @@ RUNNING PM-LSH ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-
-FINISH QUERY!
-
-AVG QUERY TIME:    326.369ms.
-
-TOTAL QUERY TIME:  32636.9ms.
-
-AVG RECALL:        0.8171
-AVG MAP:           0.71498
-AVG RATIO:         1.00109
-AVG COST:          0.363893
-AVG ROUNDS:        17.68
-	Command being timed: "./pmlsh Music 1000000 100 15 1.5 0.4 1.0 100"
-	User time (seconds): 37.12
-	System time (seconds): 1.09
+	Command being timed: "./pmlsh Music 1000000 100 15 1.5 0.4 1.0 100 Music-log7.ivecs"
+	User time (seconds): 38.92
+	System time (seconds): 1.58
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:38.24
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.52
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1606740
+	Maximum resident set size (kbytes): 1602956
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 542289
+	Minor (reclaiming a frame) page faults: 612259
 	Voluntary context switches: 2
-	Involuntary context switches: 63
+	Involuntary context switches: 64
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 152
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

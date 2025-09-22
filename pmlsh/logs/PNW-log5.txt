@@ -5,17 +5,17 @@ c=        1.5
 k=        100
 m=        15
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.84186 s.
+FINISH LOADING WITH TIME: 0.584284 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 3.78117 s.
+FINISH HASHING WITH TIME: 3.77085 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 2.62539 s.
+FINISH BUILDING WITH TIME: 2.75729 s.
 
 RUNNING PM-LSH ...
 
@@ -23,36 +23,24 @@ RUNNING PM-LSH ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-
-FINISH QUERY!
-
-AVG QUERY TIME:    0.07762ms.
-
-TOTAL QUERY TIME:  7.762ms.
-
-AVG RECALL:        0
-AVG MAP:           0
-AVG RATIO:         1.63566
-AVG COST:          0.00010453
-AVG ROUNDS:        1
-	Command being timed: "./pmlsh PNW 1000000 256 15 1.5 0.2 300 100"
-	User time (seconds): 6.49
-	System time (seconds): 0.88
-	Percent of CPU this job got: 100%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.37
+	Command being timed: "./pmlsh PNW 1000000 256 15 1.5 0.2 300 100 PNW-log5.ivecs"
+	User time (seconds): 6.52
+	System time (seconds): 0.72
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.28
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1443800
+	Maximum resident set size (kbytes): 1443364
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 366157
-	Voluntary context switches: 0
-	Involuntary context switches: 10
+	Minor (reclaiming a frame) page faults: 366088
+	Voluntary context switches: 2
+	Involuntary context switches: 16
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 40
+	File system outputs: 104
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

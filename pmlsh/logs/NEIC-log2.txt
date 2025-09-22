@@ -5,17 +5,17 @@ c=        1.75
 k=        100
 m=        15
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.596938 s.
+FINISH LOADING WITH TIME: 0.696956 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 3.78658 s.
+FINISH HASHING WITH TIME: 3.79567 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 4.07279 s.
+FINISH BUILDING WITH TIME: 4.57252 s.
 
 RUNNING PM-LSH ...
 
@@ -23,36 +23,24 @@ RUNNING PM-LSH ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-
-FINISH QUERY!
-
-AVG QUERY TIME:    161.045ms.
-
-TOTAL QUERY TIME:  16104.5ms.
-
-AVG RECALL:        0.9084
-AVG MAP:           0.846155
-AVG RATIO:         1.00079
-AVG COST:          0.0899645
-AVG ROUNDS:        13.57
-	Command being timed: "./pmlsh NEIC 1000000 256 15 1.75 0.2 1.0 100"
-	User time (seconds): 23.58
-	System time (seconds): 1.11
+	Command being timed: "./pmlsh NEIC 1000000 256 15 1.75 0.2 1.0 100 NEIC-log2.ivecs"
+	User time (seconds): 21.93
+	System time (seconds): 1.37
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:24.70
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:23.35
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2007260
+	Maximum resident set size (kbytes): 1927552
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 507033
-	Voluntary context switches: 0
-	Involuntary context switches: 43
+	Minor (reclaiming a frame) page faults: 487109
+	Voluntary context switches: 2
+	Involuntary context switches: 40
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 32
+	File system outputs: 128
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

@@ -5,24 +5,17 @@ c=        1.25
 k=        100
 m=        15
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.145968 s.
+FINISH LOADING WITH TIME: 0.121211 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.506847 s.
-
-COMPUTER BENCHMAKE...
-
-0%   10   20   30   40   50   60   70   80   90   100%
-|----|----|----|----|----|----|----|----|----|----|
-***************************************************
-FINISH COMPUTERING WITH TIME: 5.33747 s.
+FINISH HASHING WITH TIME: 0.509481 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.803629 s.
+FINISH BUILDING WITH TIME: 0.851299 s.
 
 RUNNING PM-LSH ...
 
@@ -30,36 +23,24 @@ RUNNING PM-LSH ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-
-FINISH QUERY!
-
-AVG QUERY TIME:    20.2309ms.
-
-TOTAL QUERY TIME:  2023.09ms.
-
-AVG RECALL:        0.9972
-AVG MAP:           0.996457
-AVG RATIO:         1.00008
-AVG COST:          0.0289866
-AVG ROUNDS:        80.69
-	Command being timed: "./pmlsh geofon 275174 128 15 1.25 0.2 1.0 100"
-	User time (seconds): 8.62
-	System time (seconds): 0.26
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.88
+	Command being timed: "./pmlsh geofon 275174 128 15 1.25 0.2 1.0 100 geofon-log3.ivecs"
+	User time (seconds): 3.50
+	System time (seconds): 0.21
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.79
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 400052
+	Maximum resident set size (kbytes): 386768
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 156311
-	Voluntary context switches: 3
-	Involuntary context switches: 14
+	Minor (reclaiming a frame) page faults: 98866
+	Voluntary context switches: 1
+	Involuntary context switches: 8
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 480
+	File system outputs: 88
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

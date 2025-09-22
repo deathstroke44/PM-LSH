@@ -5,17 +5,17 @@ c=        1.25
 k=        100
 m=        15
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.834851 s.
+FINISH LOADING WITH TIME: 0.659003 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 3.79142 s.
+FINISH HASHING WITH TIME: 3.79845 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 3.86624 s.
+FINISH BUILDING WITH TIME: 4.60289 s.
 
 RUNNING PM-LSH ...
 
@@ -23,36 +23,24 @@ RUNNING PM-LSH ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-
-FINISH QUERY!
-
-AVG QUERY TIME:    112.378ms.
-
-TOTAL QUERY TIME:  11237.8ms.
-
-AVG RECALL:        0.8471
-AVG MAP:           0.776182
-AVG RATIO:         1.0111
-AVG COST:          0.136622
-AVG ROUNDS:        39.78
-	Command being timed: "./pmlsh Meier2019JGR 1000000 256 15 1.25 0.2 1.0 100"
-	User time (seconds): 18.71
-	System time (seconds): 1.14
+	Command being timed: "./pmlsh Meier2019JGR 1000000 256 15 1.25 0.2 1.0 100 Meier2019JGR-log3.ivecs"
+	User time (seconds): 23.35
+	System time (seconds): 1.06
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.86
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:24.42
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1437020
+	Maximum resident set size (kbytes): 1438440
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 364524
-	Voluntary context switches: 0
-	Involuntary context switches: 27
+	Minor (reclaiming a frame) page faults: 364848
+	Voluntary context switches: 1
+	Involuntary context switches: 34
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 128
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

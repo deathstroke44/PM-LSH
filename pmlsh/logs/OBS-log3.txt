@@ -5,17 +5,17 @@ c=        1.25
 k=        100
 m=        15
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.692956 s.
+FINISH LOADING WITH TIME: 0.631415 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 3.78193 s.
+FINISH HASHING WITH TIME: 4.07143 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 2.73955 s.
+FINISH BUILDING WITH TIME: 2.96608 s.
 
 RUNNING PM-LSH ...
 
@@ -23,36 +23,24 @@ RUNNING PM-LSH ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-
-FINISH QUERY!
-
-AVG QUERY TIME:    98.5491ms.
-
-TOTAL QUERY TIME:  9854.91ms.
-
-AVG RECALL:        0.8779
-AVG MAP:           0.86235
-AVG RATIO:         1.00265
-AVG COST:          0.0416357
-AVG ROUNDS:        29.45
-	Command being timed: "./pmlsh OBS 1000000 256 15 1.25 0.2 1.0 100"
-	User time (seconds): 16.03
-	System time (seconds): 1.16
+	Command being timed: "./pmlsh OBS 1000000 256 15 1.25 0.2 1.0 100 OBS-log3.ivecs"
+	User time (seconds): 18.26
+	System time (seconds): 1.02
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.20
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.30
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1943216
+	Maximum resident set size (kbytes): 2124312
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 491034
-	Voluntary context switches: 0
-	Involuntary context switches: 23
+	Minor (reclaiming a frame) page faults: 536283
+	Voluntary context switches: 2
+	Involuntary context switches: 27
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 120
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

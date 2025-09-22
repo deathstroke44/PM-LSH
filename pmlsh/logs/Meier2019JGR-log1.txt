@@ -5,24 +5,17 @@ c=        1.5
 k=        100
 m=        15
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.586707 s.
+FINISH LOADING WITH TIME: 0.75667 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 3.7616 s.
-
-COMPUTER BENCHMAKE...
-
-0%   10   20   30   40   50   60   70   80   90   100%
-|----|----|----|----|----|----|----|----|----|----|
-***************************************************
-FINISH COMPUTERING WITH TIME: 100.71 s.
+FINISH HASHING WITH TIME: 3.79279 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 4.21553 s.
+FINISH BUILDING WITH TIME: 4.17492 s.
 
 RUNNING PM-LSH ...
 
@@ -30,36 +23,24 @@ RUNNING PM-LSH ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-
-FINISH QUERY!
-
-AVG QUERY TIME:    135.647ms.
-
-TOTAL QUERY TIME:  13564.7ms.
-
-AVG RECALL:        0.8389
-AVG MAP:           0.763939
-AVG RATIO:         1.01055
-AVG COST:          0.156341
-AVG ROUNDS:        22.19
-	Command being timed: "./pmlsh Meier2019JGR 1000000 256 15 1.5 0.2 1.0 100"
-	User time (seconds): 120.12
-	System time (seconds): 2.89
+	Command being timed: "./pmlsh Meier2019JGR 1000000 256 15 1.5 0.2 1.0 100 Meier2019JGR-log1.ivecs"
+	User time (seconds): 21.32
+	System time (seconds): 1.14
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:03.03
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:22.46
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 3498224
+	Maximum resident set size (kbytes): 1437260
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 3
-	Minor (reclaiming a frame) page faults: 952803
-	Voluntary context switches: 1
-	Involuntary context switches: 183
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 364540
+	Voluntary context switches: 0
+	Involuntary context switches: 33
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 1568
+	File system outputs: 120
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

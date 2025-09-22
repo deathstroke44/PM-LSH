@@ -5,17 +5,17 @@ c=        1.25
 k=        100
 m=        15
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.399948 s.
+FINISH LOADING WITH TIME: 0.297032 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 1.87023 s.
+FINISH HASHING WITH TIME: 1.85557 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 5.1589 s.
+FINISH BUILDING WITH TIME: 3.69474 s.
 
 RUNNING PM-LSH ...
 
@@ -23,36 +23,24 @@ RUNNING PM-LSH ...
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-
-FINISH QUERY!
-
-AVG QUERY TIME:    284.622ms.
-
-TOTAL QUERY TIME:  28462.2ms.
-
-AVG RECALL:        0.9875
-AVG MAP:           0.981067
-AVG RATIO:         1.00035
-AVG COST:          0.0865861
-AVG ROUNDS:        65.03
-	Command being timed: "./pmlsh sift 1000000 128 15 1.25 0.2 1.0 100"
-	User time (seconds): 35.14
-	System time (seconds): 1.20
-	Percent of CPU this job got: 92%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.11
+	Command being timed: "./pmlsh sift 1000000 128 15 1.25 0.2 1.0 100 sift-log3.ivecs"
+	User time (seconds): 22.98
+	System time (seconds): 0.62
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:23.63
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1736064
+	Maximum resident set size (kbytes): 1690732
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 439254
-	Voluntary context switches: 6
-	Involuntary context switches: 60
+	Minor (reclaiming a frame) page faults: 427958
+	Voluntary context switches: 4
+	Involuntary context switches: 37
 	Swaps: 0
-	File system inputs: 0
-	File system outputs: 72
+	File system inputs: 8
+	File system outputs: 88
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
