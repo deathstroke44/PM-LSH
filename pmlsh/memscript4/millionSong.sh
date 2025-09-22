@@ -1,9 +1,9 @@
 cd ../build
 
 K=100
-dim=256
-dataset=NEIC
-N=1000000
+dim=200
+dataset=millionSong
+N=992272
 
 lowDim=15
 c=1.5

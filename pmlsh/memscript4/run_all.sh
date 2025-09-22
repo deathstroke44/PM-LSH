@@ -1,1 +1,1 @@
-bash Music.sh & bash Yelp.sh & bash OBS.sh & bash PNW.sh & bash OBST2024.sh & bash NEIC.sh & bash Meier2019JGR.sh & bash ISC_EHB_DepthPhases.sh & bash Iquique.sh & echo 1
+bash deep.sh & bash glove.sh & bash sun.sh & bash audio.sh & bash millionSong.sh & bash nuswide.sh & bash MNIST.sh & bash notre.sh & bash sift.sh & bash imageNet.sh & echo 1

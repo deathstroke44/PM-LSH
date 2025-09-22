@@ -1,9 +1,9 @@
 cd ../build
 
 K=100
-dim=256
-dataset=Meier2019JGR
-N=1000000
+dim=200
+dataset=nuswide
+N=268643
 
 lowDim=15
 c=1.5

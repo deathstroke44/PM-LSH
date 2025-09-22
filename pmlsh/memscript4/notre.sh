@@ -1,9 +1,9 @@
 cd ../build
 
 K=100
-dim=256
-dataset=Iquique
-N=578853
+dim=200
+dataset=notre
+N=332668
 
 lowDim=15
 c=1.5

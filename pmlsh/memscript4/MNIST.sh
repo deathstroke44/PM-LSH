@@ -1,9 +1,9 @@
 cd ../build
 
 K=100
-dim=256
-dataset=PNW
-N=1000000
+dim=200
+dataset=MNIST
+N=69000
 
 lowDim=15
 c=1.5

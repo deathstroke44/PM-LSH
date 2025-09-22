@@ -1,8 +1,8 @@
 cd ../build
 
 K=100
-dim=256
-dataset=OBS
+dim=200
+dataset=deep
 N=1000000
 
 lowDim=15

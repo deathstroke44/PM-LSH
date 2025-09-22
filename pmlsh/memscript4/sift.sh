@@ -1,8 +1,8 @@
 cd ../build
 
 K=100
-dim=256
-dataset=OBST2024
+dim=10000
+dataset=sift
 N=1000000
 
 lowDim=15

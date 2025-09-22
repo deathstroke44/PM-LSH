@@ -1,9 +1,9 @@
 cd ../build
 
 K=100
-dim=100
-dataset=Music
-N=1000000
+dim=200
+dataset=glove
+N=1192514
 
 lowDim=15
 c=1.5

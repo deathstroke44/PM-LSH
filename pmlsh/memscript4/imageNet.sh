@@ -1,9 +1,9 @@
 cd ../build
 
 K=100
-dim=256
-dataset=ISC_EHB_DepthPhases
-N=1000000
+dim=200
+dataset=imageNet
+N=2340373
 
 lowDim=15
 c=1.5

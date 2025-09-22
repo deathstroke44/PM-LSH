@@ -1,9 +1,9 @@
 cd ../build
 
 K=100
-dim=50
-dataset=Yelp
-N=77079
+dim=200
+dataset=sun
+N=79106
 
 lowDim=15
 c=1.5
