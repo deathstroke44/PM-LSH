@@ -5,24 +5,17 @@ c=        1.25
 k=        100
 m=        15
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.372687 s.
+FINISH LOADING WITH TIME: 0.245075 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 1.34957 s.
-
-COMPUTER BENCHMAKE...
-
-0%   10   20   30   40   50   60   70   80   90   100%
-|----|----|----|----|----|----|----|----|----|----|
-***************************************************
-FINISH COMPUTERING WITH TIME: 17.3845 s.
+FINISH HASHING WITH TIME: 1.21329 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 3.75585 s.
+FINISH BUILDING WITH TIME: 3.83203 s.
 
 RUNNING PM-LSH ...
 
@@ -33,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    258.159ms.
+AVG QUERY TIME:    263.988ms.
 
-TOTAL QUERY TIME:  25815.9ms.
+TOTAL QUERY TIME:  26398.8ms.
 
-AVG RECALL:        0.6658
-AVG MAP:           0.529062
-AVG RATIO:         1.0026
-AVG COST:          0.199323
-AVG ROUNDS:        31.64
+AVG RECALL:        0.6875
+AVG MAP:           0.541137
+AVG RATIO:         1.00184
+AVG COST:          0.198976
+AVG ROUNDS:        31.62
 	Command being timed: "./pmlsh Music 1000000 100 15 1.25 0.2 1.0 100"
-	User time (seconds): 47.37
-	System time (seconds): 1.45
+	User time (seconds): 31.22
+	System time (seconds): 0.55
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:48.83
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:31.79
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1616748
+	Maximum resident set size (kbytes): 1613512
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 741735
-	Voluntary context switches: 3
-	Involuntary context switches: 87
+	Minor (reclaiming a frame) page faults: 408555
+	Voluntary context switches: 1
+	Involuntary context switches: 44
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 528
+	File system outputs: 32
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

@@ -1,0 +1,60 @@
+Using PM-LSH for notre ...
+N=        332668
+dim=      128
+c=        1.5
+k=        100
+m=        5
+LOADING DATA...
+FINISH LOADING WITH TIME: 0.146845 s.
+
+HASHING...
+FINISH HASHING WITH TIME: 0.225906 s.
+
+BUILDING INDEX...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+FINISH BUILDING WITH TIME: 0.859455 s.
+
+RUNNING PM-LSH ...
+
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+FINISH QUERY!
+
+AVG QUERY TIME:    55.0225ms.
+
+TOTAL QUERY TIME:  5502.25ms.
+
+AVG RECALL:        0.8328
+AVG MAP:           0.756109
+AVG RATIO:         1.00965
+AVG COST:          0.179167
+AVG ROUNDS:        6.62
+	Command being timed: "./pmlsh notre 332668 128 5 1.5 0.2 300 100"
+	User time (seconds): 6.49
+	System time (seconds): 0.30
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 528020
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 134155
+	Voluntary context switches: 1
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,60 @@
+Using PM-LSH for imageNet ...
+N=        2340373
+dim=      150
+c=        1.5
+k=        100
+m=        5
+LOADING DATA...
+FINISH LOADING WITH TIME: 0.718368 s.
+
+HASHING...
+FINISH HASHING WITH TIME: 1.6897 s.
+
+BUILDING INDEX...
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+FINISH BUILDING WITH TIME: 7.27111 s.
+
+RUNNING PM-LSH ...
+
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+FINISH QUERY!
+
+AVG QUERY TIME:    0.21912ms.
+
+TOTAL QUERY TIME:  21.912ms.
+
+AVG RECALL:        0.0001
+AVG MAP:           0
+AVG RATIO:         2.174
+AVG COST:          4.53603e-05
+AVG ROUNDS:        1
+	Command being timed: "./pmlsh imageNet 2340373 150 5 1.5 0.2 20.0 100"
+	User time (seconds): 9.04
+	System time (seconds): 0.80
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2172784
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 566862
+	Voluntary context switches: 1
+	Involuntary context switches: 23
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
