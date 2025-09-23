@@ -122,7 +122,7 @@ int main(int argc, char const* argv[])
 
 	lowQueryData.resize(100);
 	highQueryData.resize(100);
-	myPmlsh.improvedSearchWithKth(highData, highQueryData, lowQueryData, real_result);
+	myPmlsh.improvedSearchWithKth(highData, highQueryData, lowQueryData, real_result,Config.dataSetName);
 }
 
 

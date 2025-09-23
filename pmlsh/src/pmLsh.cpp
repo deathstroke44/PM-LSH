@@ -4,7 +4,7 @@
 #include <queue>
 
 
-void pmLsh::improvedSearchWithKth(DataMetric& highData, DataMetric& highQueryData, DataMetric& lowQueryData, Real_Result& real_result)
+void pmLsh::improvedSearchWithKth(DataMetric& highData, DataMetric& highQueryData, DataMetric& lowQueryData, Real_Result& real_result, string dataset_name)
 {
 	/*����*/
 #if defined(unix) || defined(__unix__)
