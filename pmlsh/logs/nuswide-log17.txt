@@ -2,20 +2,20 @@ Using PM-LSH for nuswide ...
 N=        268643
 dim=      500
 c=        1.25
-k=        100
+k=        20
 m=        5
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.24954 s.
+FINISH LOADING WITH TIME: 0.289509 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.634596 s.
+FINISH HASHING WITH TIME: 0.68719 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.625443 s.
+FINISH BUILDING WITH TIME: 0.71716 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    71.1037ms.
+AVG QUERY TIME:    79.9808ms.
 
-TOTAL QUERY TIME:  7110.37ms.
+TOTAL QUERY TIME:  7998.08ms.
 
-AVG RECALL:        0.5532
-AVG MAP:           0.376905
-AVG RATIO:         1.01176
-AVG COST:          0.194056
-AVG ROUNDS:        43.42
-	Command being timed: "./pmlsh nuswide 268643 500 5 1.25 0.2 1.0 100"
-	User time (seconds): 8.39
-	System time (seconds): 0.27
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.67
+AVG RECALL:        0.6215
+AVG MAP:           0.447121
+AVG RATIO:         1.00785
+AVG COST:          0.193822
+AVG ROUNDS:        43.12
+	Command being timed: "./pmlsh nuswide 268643 500 5 1.25 0.2 1.0 20"
+	User time (seconds): 9.35
+	System time (seconds): 0.39
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.84
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 820764
+	Maximum resident set size (kbytes): 822544
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 207323
-	Voluntary context switches: 1
-	Involuntary context switches: 16
+	Minor (reclaiming a frame) page faults: 207746
+	Voluntary context switches: 4
+	Involuntary context switches: 17
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 24
+	File system outputs: 32
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
