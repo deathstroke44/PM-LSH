@@ -5,17 +5,17 @@ c=        1.5
 k=        100
 m=        10
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.261199 s.
+FINISH LOADING WITH TIME: 0.401355 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 1.10595 s.
+FINISH HASHING WITH TIME: 1.18376 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 2.78531 s.
+FINISH BUILDING WITH TIME: 2.8534 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    157.767ms.
+AVG QUERY TIME:    148.097ms.
 
-TOTAL QUERY TIME:  15776.7ms.
+TOTAL QUERY TIME:  14809.7ms.
 
-AVG RECALL:        0.9718
-AVG MAP:           0.957962
-AVG RATIO:         1.00077
-AVG COST:          0.11865
-AVG ROUNDS:        20.64
-	Command being timed: "./pmlsh sift 1000000 128 10 1.5 0.2 20.0 100"
-	User time (seconds): 19.62
-	System time (seconds): 0.67
+AVG RECALL:        0.983
+AVG MAP:           0.974357
+AVG RATIO:         1.0005
+AVG COST:          0.116862
+AVG ROUNDS:        20.59
+	Command being timed: "./pmlsh sift 1000000 128 10 1.5 0.2 20.0 100 sift-log11.ivecs"
+	User time (seconds): 18.85
+	System time (seconds): 0.76
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.30
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.62
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1628124
+	Maximum resident set size (kbytes): 1556196
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 412249
+	Minor (reclaiming a frame) page faults: 394238
 	Voluntary context switches: 1
-	Involuntary context switches: 31
+	Involuntary context switches: 30
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 32
+	File system outputs: 88
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

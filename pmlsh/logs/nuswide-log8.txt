@@ -2,20 +2,20 @@ Using PM-LSH for nuswide ...
 N=        268643
 dim=      500
 c=        1.5
-k=        100
+k=        20
 m=        10
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.264789 s.
+FINISH LOADING WITH TIME: 0.277109 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 1.30373 s.
+FINISH HASHING WITH TIME: 1.34172 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.695768 s.
+FINISH BUILDING WITH TIME: 0.717404 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    75.0872ms.
+AVG QUERY TIME:    77.5031ms.
 
-TOTAL QUERY TIME:  7508.72ms.
+TOTAL QUERY TIME:  7750.31ms.
 
-AVG RECALL:        0.7285
-AVG MAP:           0.584717
-AVG RATIO:         1.00534
-AVG COST:          0.190733
-AVG ROUNDS:        25.17
-	Command being timed: "./pmlsh nuswide 268643 500 10 1.5 0.2 1.0 100"
-	User time (seconds): 9.39
-	System time (seconds): 0.44
+AVG RECALL:        0.7845
+AVG MAP:           0.655652
+AVG RATIO:         1.00388
+AVG COST:          0.188935
+AVG ROUNDS:        25.04
+	Command being timed: "./pmlsh nuswide 268643 500 10 1.5 0.2 1.0 20 nuswide-log8.ivecs"
+	User time (seconds): 9.86
+	System time (seconds): 0.27
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.84
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.13
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 846040
+	Maximum resident set size (kbytes): 844672
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 213608
-	Voluntary context switches: 1
+	Minor (reclaiming a frame) page faults: 213305
+	Voluntary context switches: 2
 	Involuntary context switches: 15
 	Swaps: 0
-	File system inputs: 0
-	File system outputs: 24
+	File system inputs: 952
+	File system outputs: 48
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

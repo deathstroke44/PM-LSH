@@ -2,20 +2,20 @@ Using PM-LSH for MNIST ...
 N=        69000
 dim=      784
 c=        1.5
-k=        100
+k=        20
 m=        10
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.101627 s.
+FINISH LOADING WITH TIME: 0.119077 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.458964 s.
+FINISH HASHING WITH TIME: 0.538041 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.139653 s.
+FINISH BUILDING WITH TIME: 0.158305 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    0.12398ms.
+AVG QUERY TIME:    0.04381ms.
 
-TOTAL QUERY TIME:  12.398ms.
+TOTAL QUERY TIME:  4.381ms.
 
-AVG RECALL:        0.0067
-AVG MAP:           0.000627262
-AVG RATIO:         1.8439
-AVG COST:          0.00154391
+AVG RECALL:        0.002
+AVG MAP:           0
+AVG RATIO:         2.08321
+AVG COST:          0.000378261
 AVG ROUNDS:        1
-	Command being timed: "./pmlsh MNIST 69000 784 10 1.5 0.2 300 100"
-	User time (seconds): 0.66
-	System time (seconds): 0.07
-	Percent of CPU this job got: 100%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.73
+	Command being timed: "./pmlsh MNIST 69000 784 10 1.5 0.2 300 20 MNIST-log12.ivecs"
+	User time (seconds): 0.74
+	System time (seconds): 0.09
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.84
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 244380
+	Maximum resident set size (kbytes): 244008
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 60879
+	Minor (reclaiming a frame) page faults: 60859
 	Voluntary context switches: 1
 	Involuntary context switches: 2
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 32
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

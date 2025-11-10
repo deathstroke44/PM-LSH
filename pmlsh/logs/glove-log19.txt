@@ -5,17 +5,17 @@ c=        1.5
 k=        20
 m=        5
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.487256 s.
+FINISH LOADING WITH TIME: 0.407674 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.662204 s.
+FINISH HASHING WITH TIME: 0.551564 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 4.25656 s.
+FINISH BUILDING WITH TIME: 3.21763 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    0.10487ms.
+AVG QUERY TIME:    0.08765ms.
 
-TOTAL QUERY TIME:  10.487ms.
+TOTAL QUERY TIME:  8.765ms.
 
 AVG RECALL:        0
 AVG MAP:           0
-AVG RATIO:         1.58447
-AVG COST:          2.18027e-05
+AVG RATIO:         1.56103
+AVG COST:          2.19033e-05
 AVG ROUNDS:        1
-	Command being timed: "./pmlsh glove 1192514 100 5 1.5 0.2 300 20"
-	User time (seconds): 4.98
-	System time (seconds): 0.52
+	Command being timed: "./pmlsh glove 1192514 100 5 1.5 0.2 300 20 glove-log19.ivecs"
+	User time (seconds): 3.82
+	System time (seconds): 0.44
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.51
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.27
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 885804
+	Maximum resident set size (kbytes): 885564
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 232801
-	Voluntary context switches: 3
+	Minor (reclaiming a frame) page faults: 232780
+	Voluntary context switches: 1
 	Involuntary context switches: 8
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 32
+	File system outputs: 56
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

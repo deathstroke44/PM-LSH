@@ -5,17 +5,17 @@ c=        1.75
 k=        20
 m=        5
 LOADING DATA...
-FINISH LOADING WITH TIME: 1.29458 s.
+FINISH LOADING WITH TIME: 1.24556 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 2.20963 s.
+FINISH HASHING WITH TIME: 1.83005 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 3.28456 s.
+FINISH BUILDING WITH TIME: 2.74672 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    195.431ms.
+AVG QUERY TIME:    173.853ms.
 
-TOTAL QUERY TIME:  19543.1ms.
+TOTAL QUERY TIME:  17385.3ms.
 
-AVG RECALL:        0.8975
-AVG MAP:           0.846394
-AVG RATIO:         1.0039
-AVG COST:          0.137264
+AVG RECALL:        0.9145
+AVG MAP:           0.86937
+AVG RATIO:         1.00306
+AVG COST:          0.143617
 AVG ROUNDS:        15.98
-	Command being timed: "./pmlsh millionSong 992272 420 5 1.75 0.2 1.0 20"
-	User time (seconds): 24.62
-	System time (seconds): 1.84
+	Command being timed: "./pmlsh millionSong 992272 420 5 1.75 0.2 1.0 20 millionSong-log16.ivecs"
+	User time (seconds): 21.64
+	System time (seconds): 1.68
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:26.51
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:23.33
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2448904
+	Maximum resident set size (kbytes): 2463828
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 617425
+	Minor (reclaiming a frame) page faults: 621192
 	Voluntary context switches: 1
-	Involuntary context switches: 38
+	Involuntary context switches: 48
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 32
+	File system outputs: 88
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

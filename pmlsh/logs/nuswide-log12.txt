@@ -2,20 +2,20 @@ Using PM-LSH for nuswide ...
 N=        268643
 dim=      500
 c=        1.5
-k=        100
+k=        20
 m=        10
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.241925 s.
+FINISH LOADING WITH TIME: 0.323634 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 1.12766 s.
+FINISH HASHING WITH TIME: 1.27613 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.619036 s.
+FINISH BUILDING WITH TIME: 0.691772 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    1.14634ms.
+AVG QUERY TIME:    0.23755ms.
 
-TOTAL QUERY TIME:  114.634ms.
+TOTAL QUERY TIME:  23.755ms.
 
-AVG RECALL:        0.0202
-AVG MAP:           0.0186606
-AVG RATIO:         1.3727
-AVG COST:          0.00445547
+AVG RECALL:        0.0115
+AVG MAP:           0.00785444
+AVG RATIO:         1.37934
+AVG COST:          0.000646844
 AVG ROUNDS:        1
-	Command being timed: "./pmlsh nuswide 268643 500 10 1.5 0.2 300 100"
-	User time (seconds): 1.92
-	System time (seconds): 0.21
+	Command being timed: "./pmlsh nuswide 268643 500 10 1.5 0.2 300 20 nuswide-log12.ivecs"
+	User time (seconds): 2.05
+	System time (seconds): 0.30
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.14
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.35
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 637824
+	Maximum resident set size (kbytes): 637340
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 161612
+	Minor (reclaiming a frame) page faults: 161492
 	Voluntary context switches: 1
-	Involuntary context switches: 2
+	Involuntary context switches: 4
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 16
+	File system outputs: 40
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

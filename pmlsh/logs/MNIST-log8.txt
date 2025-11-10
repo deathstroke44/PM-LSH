@@ -2,20 +2,20 @@ Using PM-LSH for MNIST ...
 N=        69000
 dim=      784
 c=        1.5
-k=        100
+k=        20
 m=        10
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.114514 s.
+FINISH LOADING WITH TIME: 0.123827 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.53352 s.
+FINISH HASHING WITH TIME: 0.538976 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.149611 s.
+FINISH BUILDING WITH TIME: 0.15022 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    15.931ms.
+AVG QUERY TIME:    17.5702ms.
 
-TOTAL QUERY TIME:  1593.1ms.
+TOTAL QUERY TIME:  1757.02ms.
 
-AVG RECALL:        0.9001
-AVG MAP:           0.853422
-AVG RATIO:         1.0051
-AVG COST:          0.148054
-AVG ROUNDS:        17.03
-	Command being timed: "./pmlsh MNIST 69000 784 10 1.5 0.2 1.0 100"
-	User time (seconds): 2.28
-	System time (seconds): 0.13
+AVG RECALL:        0.9545
+AVG MAP:           0.939277
+AVG RATIO:         1.00165
+AVG COST:          0.134878
+AVG ROUNDS:        16.45
+	Command being timed: "./pmlsh MNIST 69000 784 10 1.5 0.2 1.0 20 MNIST-log8.ivecs"
+	User time (seconds): 2.50
+	System time (seconds): 0.08
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.42
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.61
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 298092
+	Maximum resident set size (kbytes): 298208
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 74348
-	Voluntary context switches: 1
-	Involuntary context switches: 5
+	Voluntary context switches: 2
+	Involuntary context switches: 3
 	Swaps: 0
-	File system inputs: 0
-	File system outputs: 16
+	File system inputs: 928
+	File system outputs: 56
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

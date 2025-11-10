@@ -2,20 +2,20 @@ Using PM-LSH for deep ...
 N=        1000000
 dim=      256
 c=        1.75
-k=        100
+k=        20
 m=        10
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.448966 s.
+FINISH LOADING WITH TIME: 0.722002 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 2.25065 s.
+FINISH HASHING WITH TIME: 2.50497 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 2.89125 s.
+FINISH BUILDING WITH TIME: 3.63906 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    214.476ms.
+AVG QUERY TIME:    248.802ms.
 
-TOTAL QUERY TIME:  21447.6ms.
+TOTAL QUERY TIME:  24880.2ms.
 
-AVG RECALL:        0.8741
-AVG MAP:           0.800907
-AVG RATIO:         1.00423
-AVG COST:          0.142131
-AVG ROUNDS:        4.86
-	Command being timed: "./pmlsh deep 1000000 256 10 1.75 0.2 1.0 100"
-	User time (seconds): 26.21
-	System time (seconds): 0.92
+AVG RECALL:        0.902
+AVG MAP:           0.851209
+AVG RATIO:         1.00285
+AVG COST:          0.157585
+AVG ROUNDS:        4.67
+	Command being timed: "./pmlsh deep 1000000 256 10 1.75 0.2 1.0 20 deep-log9.ivecs"
+	User time (seconds): 30.10
+	System time (seconds): 1.81
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:27.14
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:31.92
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2187824
+	Maximum resident set size (kbytes): 2191060
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 552177
+	Minor (reclaiming a frame) page faults: 903492
 	Voluntary context switches: 1
-	Involuntary context switches: 42
+	Involuntary context switches: 46
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 8
+	File system outputs: 32
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

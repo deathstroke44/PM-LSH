@@ -2,20 +2,20 @@ Using PM-LSH for sun ...
 N=        79106
 dim=      512
 c=        1.5
-k=        100
+k=        20
 m=        10
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.079167 s.
+FINISH LOADING WITH TIME: 0.104982 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.347113 s.
+FINISH HASHING WITH TIME: 0.40562 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.149921 s.
+FINISH BUILDING WITH TIME: 0.173578 s.
 
 RUNNING PM-LSH ...
 
@@ -26,30 +26,30 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    20.6556ms.
+AVG QUERY TIME:    22.2151ms.
 
-TOTAL QUERY TIME:  2065.56ms.
+TOTAL QUERY TIME:  2221.51ms.
 
-AVG RECALL:        0.9524
-AVG MAP:           0.926997
-AVG RATIO:         1.00168
-AVG COST:          0.264042
-AVG ROUNDS:        64.94
-	Command being timed: "./pmlsh sun 79106 512 10 1.5 0.4 1.0 100"
-	User time (seconds): 2.57
-	System time (seconds): 0.09
+AVG RECALL:        0.943
+AVG MAP:           0.907319
+AVG RATIO:         1.00176
+AVG COST:          0.247316
+AVG ROUNDS:        64.59
+	Command being timed: "./pmlsh sun 79106 512 10 1.5 0.4 1.0 20 sun-log14.ivecs"
+	User time (seconds): 2.83
+	System time (seconds): 0.08
 	Percent of CPU this job got: 100%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.67
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.92
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 256776
+	Maximum resident set size (kbytes): 257172
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 64001
+	Minor (reclaiming a frame) page faults: 64128
 	Voluntary context switches: 1
-	Involuntary context switches: 3
+	Involuntary context switches: 8
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 32

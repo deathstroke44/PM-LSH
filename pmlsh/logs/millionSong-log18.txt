@@ -5,17 +5,17 @@ c=        1.5
 k=        20
 m=        5
 LOADING DATA...
-FINISH LOADING WITH TIME: 1.2398 s.
+FINISH LOADING WITH TIME: 1.13122 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 2.18887 s.
+FINISH HASHING WITH TIME: 1.81716 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 3.34159 s.
+FINISH BUILDING WITH TIME: 2.75897 s.
 
 RUNNING PM-LSH ...
 
@@ -26,30 +26,30 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    190.379ms.
+AVG QUERY TIME:    192.383ms.
 
-TOTAL QUERY TIME:  19037.9ms.
+TOTAL QUERY TIME:  19238.3ms.
 
-AVG RECALL:        0.9715
-AVG MAP:           0.958585
-AVG RATIO:         1.00071
-AVG COST:          0.14278
+AVG RECALL:        0.918
+AVG MAP:           0.86989
+AVG RATIO:         1.00282
+AVG COST:          0.159944
 AVG ROUNDS:        7.11
-	Command being timed: "./pmlsh millionSong 992272 420 5 1.5 0.2 20.0 20"
-	User time (seconds): 24.24
-	System time (seconds): 1.71
+	Command being timed: "./pmlsh millionSong 992272 420 5 1.5 0.2 20.0 20 millionSong-log18.ivecs"
+	User time (seconds): 23.48
+	System time (seconds): 1.59
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:25.96
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:25.08
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2425216
+	Maximum resident set size (kbytes): 2511512
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 611564
+	Minor (reclaiming a frame) page faults: 633082
 	Voluntary context switches: 1
-	Involuntary context switches: 38
+	Involuntary context switches: 63
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 32

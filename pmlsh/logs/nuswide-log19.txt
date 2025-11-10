@@ -5,17 +5,17 @@ c=        1.5
 k=        20
 m=        5
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.285371 s.
+FINISH LOADING WITH TIME: 0.367449 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.687749 s.
+FINISH HASHING WITH TIME: 0.588075 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.735746 s.
+FINISH BUILDING WITH TIME: 0.536387 s.
 
 RUNNING PM-LSH ...
 
@@ -26,25 +26,25 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    0.08258ms.
+AVG QUERY TIME:    0.07019ms.
 
-TOTAL QUERY TIME:  8.258ms.
+TOTAL QUERY TIME:  7.019ms.
 
-AVG RECALL:        0.002
+AVG RECALL:        0.001
 AVG MAP:           0
-AVG RATIO:         1.46096
-AVG COST:          0.00013624
+AVG RATIO:         1.39887
+AVG COST:          0.000167546
 AVG ROUNDS:        1
-	Command being timed: "./pmlsh nuswide 268643 500 5 1.5 0.2 300 20"
-	User time (seconds): 1.45
-	System time (seconds): 0.30
+	Command being timed: "./pmlsh nuswide 268643 500 5 1.5 0.2 300 20 nuswide-log19.ivecs"
+	User time (seconds): 1.21
+	System time (seconds): 0.31
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.75
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.53
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 623464
+	Maximum resident set size (kbytes): 623384
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 157974
@@ -52,7 +52,7 @@ AVG ROUNDS:        1
 	Involuntary context switches: 3
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 40
+	File system outputs: 32
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

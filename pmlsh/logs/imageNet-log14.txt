@@ -2,20 +2,20 @@ Using PM-LSH for imageNet ...
 N=        2340373
 dim=      150
 c=        1.5
-k=        100
+k=        20
 m=        10
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.761056 s.
+FINISH LOADING WITH TIME: 1.04107 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 3.17919 s.
+FINISH HASHING WITH TIME: 3.17998 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 8.2831 s.
+FINISH BUILDING WITH TIME: 8.70781 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    172.116ms.
+AVG QUERY TIME:    148.64ms.
 
-TOTAL QUERY TIME:  17211.6ms.
+TOTAL QUERY TIME:  14864ms.
 
-AVG RECALL:        0.3586
-AVG MAP:           0.318666
-AVG RATIO:         1.24116
-AVG COST:          0.0745486
-AVG ROUNDS:        1.26
-	Command being timed: "./pmlsh imageNet 2340373 150 10 1.5 0.4 1.0 100"
-	User time (seconds): 28.22
-	System time (seconds): 1.38
+AVG RECALL:        0.2915
+AVG MAP:           0.265892
+AVG RATIO:         1.3076
+AVG COST:          0.0505253
+AVG ROUNDS:        1.16
+	Command being timed: "./pmlsh imageNet 2340373 150 10 1.5 0.4 1.0 20 imageNet-log14.ivecs"
+	User time (seconds): 26.34
+	System time (seconds): 1.63
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.61
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:27.98
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2829388
+	Maximum resident set size (kbytes): 2825568
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 730983
-	Voluntary context switches: 1
-	Involuntary context switches: 51
+	Minor (reclaiming a frame) page faults: 730033
+	Voluntary context switches: 0
+	Involuntary context switches: 70
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 80
+	File system outputs: 64
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

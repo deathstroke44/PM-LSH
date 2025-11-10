@@ -1,21 +1,21 @@
 Using PM-LSH for millionSong ...
 N=        992272
 dim=      420
-c=        1.1
+c=        1.25
 k=        20
-m=        5
+m=        4
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.966526 s.
+FINISH LOADING WITH TIME: 1.02617 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 2.16829 s.
+FINISH HASHING WITH TIME: 1.43788 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 3.22304 s.
+FINISH BUILDING WITH TIME: 2.40536 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    242.894ms.
+AVG QUERY TIME:    201.78ms.
 
-TOTAL QUERY TIME:  24289.4ms.
+TOTAL QUERY TIME:  20178ms.
 
-AVG RECALL:        0.915
-AVG MAP:           0.862021
-AVG RATIO:         1.00332
-AVG COST:          0.169424
-AVG ROUNDS:        91.46
-	Command being timed: "./pmlsh millionSong 992272 420 5 1.1 0.2 1.0 20"
-	User time (seconds): 29.24
-	System time (seconds): 1.54
+AVG RECALL:        0.826
+AVG MAP:           0.726637
+AVG RATIO:         1.00988
+AVG COST:          0.180131
+AVG ROUNDS:        38.79
+	Command being timed: "./pmlsh millionSong 992272 420 4 1.25 0.2 1.0 20 millionSong-log33.ivecs"
+	User time (seconds): 23.60
+	System time (seconds): 1.57
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.78
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:25.18
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2492932
+	Maximum resident set size (kbytes): 2411000
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 628431
-	Voluntary context switches: 3
-	Involuntary context switches: 42
+	Minor (reclaiming a frame) page faults: 608003
+	Voluntary context switches: 1
+	Involuntary context switches: 54
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 48
+	File system outputs: 88
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

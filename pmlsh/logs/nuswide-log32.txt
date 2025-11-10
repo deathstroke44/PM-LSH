@@ -5,17 +5,17 @@ c=        1.15
 k=        20
 m=        5
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.515289 s.
+FINISH LOADING WITH TIME: 0.333691 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.686035 s.
+FINISH HASHING WITH TIME: 0.589677 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.679455 s.
+FINISH BUILDING WITH TIME: 0.527158 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    77.5777ms.
+AVG QUERY TIME:    57.6261ms.
 
-TOTAL QUERY TIME:  7757.76ms.
+TOTAL QUERY TIME:  5762.61ms.
 
-AVG RECALL:        0.602
-AVG MAP:           0.426459
-AVG RATIO:         1.00806
-AVG COST:          0.192575
-AVG ROUNDS:        68.49
-	Command being timed: "./pmlsh nuswide 268643 500 5 1.15 0.2 1.0 20"
-	User time (seconds): 9.06
-	System time (seconds): 0.62
+AVG RECALL:        0.669
+AVG MAP:           0.528277
+AVG RATIO:         1.00639
+AVG COST:          0.187635
+AVG ROUNDS:        68.47
+	Command being timed: "./pmlsh nuswide 268643 500 5 1.15 0.2 1.0 20 nuswide-log32.ivecs"
+	User time (seconds): 6.87
+	System time (seconds): 0.37
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.69
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.25
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 825976
+	Maximum resident set size (kbytes): 814384
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 208590
-	Voluntary context switches: 3
-	Involuntary context switches: 14
+	Minor (reclaiming a frame) page faults: 205733
+	Voluntary context switches: 1
+	Involuntary context switches: 16
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 40
+	File system outputs: 32
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

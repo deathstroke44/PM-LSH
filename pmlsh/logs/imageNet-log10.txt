@@ -2,20 +2,20 @@ Using PM-LSH for imageNet ...
 N=        2340373
 dim=      150
 c=        1.25
-k=        100
+k=        20
 m=        10
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.683018 s.
+FINISH LOADING WITH TIME: 0.998475 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 3.0443 s.
+FINISH HASHING WITH TIME: 3.20027 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 7.72045 s.
+FINISH BUILDING WITH TIME: 8.69615 s.
 
 RUNNING PM-LSH ...
 
@@ -26,30 +26,30 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    141.789ms.
+AVG QUERY TIME:    127.65ms.
 
-TOTAL QUERY TIME:  14178.9ms.
+TOTAL QUERY TIME:  12765ms.
 
-AVG RECALL:        0.3421
-AVG MAP:           0.29861
-AVG RATIO:         1.23249
-AVG COST:          0.0484892
-AVG ROUNDS:        1.54
-	Command being timed: "./pmlsh imageNet 2340373 150 10 1.25 0.2 1.0 100"
-	User time (seconds): 24.63
-	System time (seconds): 1.17
+AVG RECALL:        0.285
+AVG MAP:           0.26361
+AVG RATIO:         1.30352
+AVG COST:          0.0434316
+AVG ROUNDS:        1.4
+	Command being timed: "./pmlsh imageNet 2340373 150 10 1.25 0.2 1.0 20 imageNet-log10.ivecs"
+	User time (seconds): 24.33
+	System time (seconds): 1.49
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:25.81
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:25.84
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2889620
+	Maximum resident set size (kbytes): 2773748
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 746067
+	Minor (reclaiming a frame) page faults: 717103
 	Voluntary context switches: 1
-	Involuntary context switches: 64
+	Involuntary context switches: 48
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 40

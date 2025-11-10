@@ -1,21 +1,21 @@
 Using PM-LSH for sun ...
 N=        79106
 dim=      512
-c=        1.1
+c=        1.25
 k=        20
-m=        5
+m=        4
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.100264 s.
+FINISH LOADING WITH TIME: 0.13012 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.207502 s.
+FINISH HASHING WITH TIME: 0.157568 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.158641 s.
+FINISH BUILDING WITH TIME: 0.129299 s.
 
 RUNNING PM-LSH ...
 
@@ -26,30 +26,30 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    22.2481ms.
+AVG QUERY TIME:    16.0739ms.
 
-TOTAL QUERY TIME:  2224.81ms.
+TOTAL QUERY TIME:  1607.4ms.
 
-AVG RECALL:        0.7295
-AVG MAP:           0.575441
-AVG RATIO:         1.01027
-AVG COST:          0.199749
-AVG ROUNDS:        268.78
-	Command being timed: "./pmlsh sun 79106 512 5 1.1 0.2 1.0 20"
-	User time (seconds): 2.59
+AVG RECALL:        0.6775
+AVG MAP:           0.518305
+AVG RATIO:         1.01274
+AVG COST:          0.199286
+AVG ROUNDS:        114.58
+	Command being timed: "./pmlsh sun 79106 512 4 1.25 0.2 1.0 20 sun-log33.ivecs"
+	User time (seconds): 1.92
 	System time (seconds): 0.11
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.71
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.04
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 251864
+	Maximum resident set size (kbytes): 241200
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 62822
-	Voluntary context switches: 1
-	Involuntary context switches: 4
+	Minor (reclaiming a frame) page faults: 60129
+	Voluntary context switches: 0
+	Involuntary context switches: 2
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 32

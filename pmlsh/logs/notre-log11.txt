@@ -2,20 +2,20 @@ Using PM-LSH for notre ...
 N=        332668
 dim=      128
 c=        1.5
-k=        100
+k=        20
 m=        10
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.098851 s.
+FINISH LOADING WITH TIME: 0.111455 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.37167 s.
+FINISH HASHING WITH TIME: 0.42572 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.783305 s.
+FINISH BUILDING WITH TIME: 0.904348 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    58.5058ms.
+AVG QUERY TIME:    54.4357ms.
 
-TOTAL QUERY TIME:  5850.58ms.
+TOTAL QUERY TIME:  5443.57ms.
 
-AVG RECALL:        0.9415
-AVG MAP:           0.909931
-AVG RATIO:         1.00218
-AVG COST:          0.149468
-AVG ROUNDS:        21.01
-	Command being timed: "./pmlsh notre 332668 128 10 1.5 0.2 20.0 100"
-	User time (seconds): 6.98
-	System time (seconds): 0.17
+AVG RECALL:        0.961
+AVG MAP:           0.941052
+AVG RATIO:         1.00139
+AVG COST:          0.109764
+AVG ROUNDS:        20.41
+	Command being timed: "./pmlsh notre 332668 128 10 1.5 0.2 20.0 20 notre-log11.ivecs"
+	User time (seconds): 6.72
+	System time (seconds): 0.20
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.15
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.98
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 563380
+	Maximum resident set size (kbytes): 565228
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 142932
-	Voluntary context switches: 1
-	Involuntary context switches: 10
+	Minor (reclaiming a frame) page faults: 143426
+	Voluntary context switches: 2
+	Involuntary context switches: 8
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 24
+	File system outputs: 40
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

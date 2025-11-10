@@ -2,20 +2,20 @@ Using PM-LSH for glove ...
 N=        1192514
 dim=      100
 c=        1.5
-k=        100
+k=        20
 m=        10
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.282895 s.
+FINISH LOADING WITH TIME: 0.412314 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.990974 s.
+FINISH HASHING WITH TIME: 1.03476 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 3.64206 s.
+FINISH BUILDING WITH TIME: 3.67328 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    366.479ms.
+AVG QUERY TIME:    343.808ms.
 
-TOTAL QUERY TIME:  36647.9ms.
+TOTAL QUERY TIME:  34380.8ms.
 
-AVG RECALL:        0.9411
-AVG MAP:           0.903496
-AVG RATIO:         1.00135
-AVG COST:          0.326518
-AVG ROUNDS:        16.24
-	Command being timed: "./pmlsh glove 1192514 100 10 1.5 0.4 1.0 100"
-	User time (seconds): 40.22
-	System time (seconds): 1.59
+AVG RECALL:        0.9565
+AVG MAP:           0.92901
+AVG RATIO:         1.00115
+AVG COST:          0.318089
+AVG ROUNDS:        16.06
+	Command being timed: "./pmlsh glove 1192514 100 10 1.5 0.4 1.0 20 glove-log14.ivecs"
+	User time (seconds): 38.46
+	System time (seconds): 1.15
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.82
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.61
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1894160
+	Maximum resident set size (kbytes): 1893544
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 720919
+	Minor (reclaiming a frame) page faults: 484765
 	Voluntary context switches: 0
-	Involuntary context switches: 99
+	Involuntary context switches: 62
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 88
+	File system outputs: 96
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

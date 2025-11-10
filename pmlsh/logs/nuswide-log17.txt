@@ -5,17 +5,17 @@ c=        1.25
 k=        20
 m=        5
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.289509 s.
+FINISH LOADING WITH TIME: 0.40205 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.68719 s.
+FINISH HASHING WITH TIME: 0.57638 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.71716 s.
+FINISH BUILDING WITH TIME: 0.556823 s.
 
 RUNNING PM-LSH ...
 
@@ -26,30 +26,30 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    79.9808ms.
+AVG QUERY TIME:    58.5009ms.
 
-TOTAL QUERY TIME:  7998.08ms.
+TOTAL QUERY TIME:  5850.09ms.
 
-AVG RECALL:        0.6215
-AVG MAP:           0.447121
-AVG RATIO:         1.00785
-AVG COST:          0.193822
-AVG ROUNDS:        43.12
-	Command being timed: "./pmlsh nuswide 268643 500 5 1.25 0.2 1.0 20"
-	User time (seconds): 9.35
-	System time (seconds): 0.39
-	Percent of CPU this job got: 98%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.84
+AVG RECALL:        0.6675
+AVG MAP:           0.513191
+AVG RATIO:         1.00626
+AVG COST:          0.19102
+AVG ROUNDS:        43.07
+	Command being timed: "./pmlsh nuswide 268643 500 5 1.25 0.2 1.0 20 nuswide-log17.ivecs"
+	User time (seconds): 6.97
+	System time (seconds): 0.44
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.42
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 822544
+	Maximum resident set size (kbytes): 815656
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 207746
-	Voluntary context switches: 4
-	Involuntary context switches: 17
+	Minor (reclaiming a frame) page faults: 206061
+	Voluntary context switches: 0
+	Involuntary context switches: 14
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 32

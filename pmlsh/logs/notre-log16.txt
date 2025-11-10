@@ -5,17 +5,17 @@ c=        1.75
 k=        20
 m=        5
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.117364 s.
+FINISH LOADING WITH TIME: 0.101204 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.246202 s.
+FINISH HASHING WITH TIME: 0.206963 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.905418 s.
+FINISH BUILDING WITH TIME: 0.733728 s.
 
 RUNNING PM-LSH ...
 
@@ -26,30 +26,30 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    54.5707ms.
+AVG QUERY TIME:    48.7518ms.
 
-TOTAL QUERY TIME:  5457.07ms.
+TOTAL QUERY TIME:  4875.18ms.
 
-AVG RECALL:        0.912
-AVG MAP:           0.876638
-AVG RATIO:         1.00428
-AVG COST:          0.154623
-AVG ROUNDS:        24.8
-	Command being timed: "./pmlsh notre 332668 128 5 1.75 0.2 1.0 20"
-	User time (seconds): 6.56
-	System time (seconds): 0.21
+AVG RECALL:        0.868
+AVG MAP:           0.818348
+AVG RATIO:         1.00705
+AVG COST:          0.155578
+AVG ROUNDS:        24.82
+	Command being timed: "./pmlsh notre 332668 128 5 1.75 0.2 1.0 20 notre-log16.ivecs"
+	User time (seconds): 5.75
+	System time (seconds): 0.19
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.77
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.95
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 503248
+	Maximum resident set size (kbytes): 524592
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 127949
-	Voluntary context switches: 3
-	Involuntary context switches: 10
+	Minor (reclaiming a frame) page faults: 133349
+	Voluntary context switches: 1
+	Involuntary context switches: 9
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 40

@@ -5,17 +5,17 @@ c=        1.5
 k=        20
 m=        5
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.148637 s.
+FINISH LOADING WITH TIME: 0.083337 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.207815 s.
+FINISH HASHING WITH TIME: 0.201296 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.158858 s.
+FINISH BUILDING WITH TIME: 0.154623 s.
 
 RUNNING PM-LSH ...
 
@@ -26,30 +26,30 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    29.3505ms.
+AVG QUERY TIME:    26.3353ms.
 
-TOTAL QUERY TIME:  2935.05ms.
+TOTAL QUERY TIME:  2633.53ms.
 
-AVG RECALL:        0.9395
-AVG MAP:           0.896679
-AVG RATIO:         1.00187
-AVG COST:          0.320947
-AVG ROUNDS:        63.52
-	Command being timed: "./pmlsh sun 79106 512 5 1.5 0.4 1.0 20"
-	User time (seconds): 3.29
-	System time (seconds): 0.17
+AVG RECALL:        0.9265
+AVG MAP:           0.875515
+AVG RATIO:         1.00228
+AVG COST:          0.346633
+AVG ROUNDS:        63.5
+	Command being timed: "./pmlsh sun 79106 512 5 1.5 0.4 1.0 20 sun-log21.ivecs"
+	User time (seconds): 3.00
+	System time (seconds): 0.08
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.48
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.09
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 247580
+	Maximum resident set size (kbytes): 251544
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 61738
-	Voluntary context switches: 5
-	Involuntary context switches: 6
+	Minor (reclaiming a frame) page faults: 62684
+	Voluntary context switches: 1
+	Involuntary context switches: 7
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 32

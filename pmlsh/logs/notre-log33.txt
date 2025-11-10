@@ -1,21 +1,21 @@
 Using PM-LSH for notre ...
 N=        332668
 dim=      128
-c=        1.1
+c=        1.25
 k=        20
-m=        5
+m=        4
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.199493 s.
+FINISH LOADING WITH TIME: 0.105706 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.245471 s.
+FINISH HASHING WITH TIME: 0.169687 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.909532 s.
+FINISH BUILDING WITH TIME: 0.653306 s.
 
 RUNNING PM-LSH ...
 
@@ -26,30 +26,30 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    61.8339ms.
+AVG QUERY TIME:    40.6694ms.
 
-TOTAL QUERY TIME:  6183.4ms.
+TOTAL QUERY TIME:  4066.94ms.
 
-AVG RECALL:        0.8915
-AVG MAP:           0.844791
-AVG RATIO:         1.00654
-AVG COST:          0.170474
-AVG ROUNDS:        143.24
-	Command being timed: "./pmlsh notre 332668 128 5 1.1 0.2 1.0 20"
-	User time (seconds): 7.30
-	System time (seconds): 0.27
+AVG RECALL:        0.883
+AVG MAP:           0.837397
+AVG RATIO:         1.00646
+AVG COST:          0.167404
+AVG ROUNDS:        60.9
+	Command being timed: "./pmlsh notre 332668 128 4 1.25 0.2 1.0 20 notre-log33.ivecs"
+	User time (seconds): 4.90
+	System time (seconds): 0.12
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.59
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.03
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 533304
+	Maximum resident set size (kbytes): 398156
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 135469
-	Voluntary context switches: 2
-	Involuntary context switches: 11
+	Minor (reclaiming a frame) page faults: 101717
+	Voluntary context switches: 1
+	Involuntary context switches: 9
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 32

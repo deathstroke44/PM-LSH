@@ -5,17 +5,17 @@ c=        1.5
 k=        20
 m=        5
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.210543 s.
+FINISH LOADING WITH TIME: 0.137121 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.25053 s.
+FINISH HASHING WITH TIME: 0.210556 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.90751 s.
+FINISH BUILDING WITH TIME: 0.689193 s.
 
 RUNNING PM-LSH ...
 
@@ -26,33 +26,33 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    84.181ms.
+AVG QUERY TIME:    59.1441ms.
 
-TOTAL QUERY TIME:  8418.1ms.
+TOTAL QUERY TIME:  5914.41ms.
 
-AVG RECALL:        0.963
-AVG MAP:           0.947564
-AVG RATIO:         1.00149
-AVG COST:          0.293555
-AVG ROUNDS:        34
-	Command being timed: "./pmlsh notre 332668 128 5 1.5 0.4 1.0 20"
-	User time (seconds): 9.52
-	System time (seconds): 0.32
+AVG RECALL:        0.9685
+AVG MAP:           0.959351
+AVG RATIO:         1.00124
+AVG COST:          0.24443
+AVG ROUNDS:        33.97
+	Command being timed: "./pmlsh notre 332668 128 5 1.5 0.4 1.0 20 notre-log21.ivecs"
+	User time (seconds): 6.80
+	System time (seconds): 0.18
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.84
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.98
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 527780
+	Maximum resident set size (kbytes): 495020
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 134099
-	Voluntary context switches: 3
-	Involuntary context switches: 23
+	Minor (reclaiming a frame) page faults: 125951
+	Voluntary context switches: 1
+	Involuntary context switches: 9
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 32
+	File system outputs: 48
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

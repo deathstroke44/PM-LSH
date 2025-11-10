@@ -5,17 +5,17 @@ c=        1.15
 k=        20
 m=        5
 LOADING DATA...
-FINISH LOADING WITH TIME: 1.10184 s.
+FINISH LOADING WITH TIME: 1.05043 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 2.00926 s.
+FINISH HASHING WITH TIME: 1.68346 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 9.60124 s.
+FINISH BUILDING WITH TIME: 7.84824 s.
 
 RUNNING PM-LSH ...
 
@@ -26,30 +26,30 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    49.3233ms.
+AVG QUERY TIME:    40.1283ms.
 
-TOTAL QUERY TIME:  4932.33ms.
+TOTAL QUERY TIME:  4012.83ms.
 
-AVG RECALL:        0.119
-AVG MAP:           0.0967318
-AVG RATIO:         1.46931
-AVG COST:          0.0232588
-AVG ROUNDS:        1.23
-	Command being timed: "./pmlsh imageNet 2340373 150 5 1.15 0.2 1.0 20"
-	User time (seconds): 16.50
-	System time (seconds): 1.31
+AVG RECALL:        0.1075
+AVG MAP:           0.0814135
+AVG RATIO:         1.48975
+AVG COST:          0.0197596
+AVG ROUNDS:        1.25
+	Command being timed: "./pmlsh imageNet 2340373 150 5 1.15 0.2 1.0 20 imageNet-log32.ivecs"
+	User time (seconds): 13.40
+	System time (seconds): 1.35
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.82
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.75
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2249856
+	Maximum resident set size (kbytes): 2250928
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 586135
-	Voluntary context switches: 3
-	Involuntary context switches: 35
+	Minor (reclaiming a frame) page faults: 586399
+	Voluntary context switches: 1
+	Involuntary context switches: 21
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 48

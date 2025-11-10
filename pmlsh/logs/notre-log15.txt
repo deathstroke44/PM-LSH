@@ -5,17 +5,17 @@ c=        1.5
 k=        20
 m=        5
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.120895 s.
+FINISH LOADING WITH TIME: 0.107627 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.244486 s.
+FINISH HASHING WITH TIME: 0.215788 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 0.896032 s.
+FINISH BUILDING WITH TIME: 0.741883 s.
 
 RUNNING PM-LSH ...
 
@@ -26,32 +26,32 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    55.6474ms.
+AVG QUERY TIME:    49.1384ms.
 
-TOTAL QUERY TIME:  5564.74ms.
+TOTAL QUERY TIME:  4913.84ms.
 
-AVG RECALL:        0.9095
-AVG MAP:           0.873801
-AVG RATIO:         1.005
-AVG COST:          0.156006
-AVG ROUNDS:        34.01
-	Command being timed: "./pmlsh notre 332668 128 5 1.5 0.2 1.0 20"
-	User time (seconds): 6.66
-	System time (seconds): 0.21
+AVG RECALL:        0.868
+AVG MAP:           0.819787
+AVG RATIO:         1.00863
+AVG COST:          0.161905
+AVG ROUNDS:        34.04
+	Command being timed: "./pmlsh notre 332668 128 5 1.5 0.2 1.0 20 notre-log15.ivecs"
+	User time (seconds): 5.83
+	System time (seconds): 0.18
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.88
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.01
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 516656
+	Maximum resident set size (kbytes): 504548
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 131369
-	Voluntary context switches: 3
-	Involuntary context switches: 11
+	Minor (reclaiming a frame) page faults: 128323
+	Voluntary context switches: 0
+	Involuntary context switches: 9
 	Swaps: 0
-	File system inputs: 960
+	File system inputs: 0
 	File system outputs: 32
 	Socket messages sent: 0
 	Socket messages received: 0

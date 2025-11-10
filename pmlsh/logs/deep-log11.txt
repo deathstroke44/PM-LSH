@@ -2,20 +2,20 @@ Using PM-LSH for deep ...
 N=        1000000
 dim=      256
 c=        1.5
-k=        100
+k=        20
 m=        10
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.556144 s.
+FINISH LOADING WITH TIME: 0.615568 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 2.56431 s.
+FINISH HASHING WITH TIME: 2.27619 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 3.42349 s.
+FINISH BUILDING WITH TIME: 2.98511 s.
 
 RUNNING PM-LSH ...
 
@@ -26,30 +26,30 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    0.21443ms.
+AVG QUERY TIME:    0.0737ms.
 
-TOTAL QUERY TIME:  21.443ms.
+TOTAL QUERY TIME:  7.37ms.
 
-AVG RECALL:        0.0004
-AVG MAP:           0
-AVG RATIO:         1.69569
-AVG COST:          0.00010574
+AVG RECALL:        0.0005
+AVG MAP:           0.0005
+AVG RATIO:         1.72394
+AVG COST:          2.622e-05
 AVG ROUNDS:        1
-	Command being timed: "./pmlsh deep 1000000 256 10 1.5 0.2 20.0 100"
-	User time (seconds): 6.02
-	System time (seconds): 0.64
+	Command being timed: "./pmlsh deep 1000000 256 10 1.5 0.2 20.0 20 deep-log11.ivecs"
+	User time (seconds): 5.29
+	System time (seconds): 0.66
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.67
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.96
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1401404
+	Maximum resident set size (kbytes): 1401396
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 355599
 	Voluntary context switches: 1
-	Involuntary context switches: 13
+	Involuntary context switches: 7
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 40

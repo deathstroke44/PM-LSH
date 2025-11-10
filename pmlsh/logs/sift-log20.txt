@@ -5,17 +5,17 @@ c=        1.5
 k=        100
 m=        5
 LOADING DATA...
-FINISH LOADING WITH TIME: 0.301995 s.
+FINISH LOADING WITH TIME: 0.390578 s.
 
 HASHING...
-FINISH HASHING WITH TIME: 0.742949 s.
+FINISH HASHING WITH TIME: 0.622315 s.
 
 BUILDING INDEX...
 
 0%   10   20   30   40   50   60   70   80   90   100%
 |----|----|----|----|----|----|----|----|----|----|
 ***************************************************
-FINISH BUILDING WITH TIME: 2.43804 s.
+FINISH BUILDING WITH TIME: 2.44212 s.
 
 RUNNING PM-LSH ...
 
@@ -26,30 +26,30 @@ RUNNING PM-LSH ...
 
 FINISH QUERY!
 
-AVG QUERY TIME:    90.5759ms.
+AVG QUERY TIME:    100.173ms.
 
-TOTAL QUERY TIME:  9057.59ms.
+TOTAL QUERY TIME:  10017.3ms.
 
-AVG RECALL:        0.7771
-AVG MAP:           0.667301
-AVG RATIO:         1.01149
-AVG COST:          0.0925327
-AVG ROUNDS:        34.3
-	Command being timed: "./pmlsh sift 1000000 128 5 1.5 0.1 1.0 100"
-	User time (seconds): 12.44
-	System time (seconds): 0.48
+AVG RECALL:        0.81
+AVG MAP:           0.716299
+AVG RATIO:         1.00947
+AVG COST:          0.0957702
+AVG ROUNDS:        34.28
+	Command being timed: "./pmlsh sift 1000000 128 5 1.5 0.1 1.0 100 sift-log20.ivecs"
+	User time (seconds): 13.21
+	System time (seconds): 0.59
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.92
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.81
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1218988
+	Maximum resident set size (kbytes): 1290004
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 309966
-	Voluntary context switches: 1
-	Involuntary context switches: 19
+	Minor (reclaiming a frame) page faults: 327766
+	Voluntary context switches: 0
+	Involuntary context switches: 21
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 88
