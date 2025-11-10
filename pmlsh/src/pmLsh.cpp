@@ -3,8 +3,35 @@
 #include <ctime>
 #include <queue>
 
+using namespace std;
 
-void pmLsh::improvedSearchWithKth(DataMetric& highData, DataMetric& highQueryData, DataMetric& lowQueryData, Real_Result& real_result, string dataset_name)
+template<typename T>
+void save_to_fvecs(const char* filename, T* &dataset, int n, int d)
+{
+	FILE * ofp = fopen(filename, "w");
+	for(int i=0;i<n;i++)
+	{
+		fwrite(&d,sizeof(int),1,ofp);
+		fwrite(&dataset[i*d],sizeof(T),d,ofp);
+	}
+	fclose(ofp);	
+}
+
+
+template<typename T>
+void save_to_fvecsV1(const char* filename, vector<vector<pair<DATATYPE, int>>> queryResult, int n, int d)
+{
+
+  T* dataset = new T[n*d];
+  for(int i=0; i<n; i++) {
+	for(int j=0;j<d;j++) {
+		dataset[i*d+j] = queryResult[i][j].second;
+	}
+  }
+  save_to_fvecs<T>(filename, dataset, n, d);
+}
+
+void pmLsh::improvedSearchWithKth(DataMetric& highData, DataMetric& highQueryData, DataMetric& lowQueryData, Real_Result& real_result, std::string dataset_name)
 {
 	/*����*/
 #if defined(unix) || defined(__unix__)
@@ -71,7 +98,7 @@ void pmLsh::improvedSearchWithKth(DataMetric& highData, DataMetric& highQueryDat
 		std::cout << "AVG RATIO:         " << all_overRatio[id] << std::endl;
 		std::cout << "AVG COST:          " << all_cost / highData.size() / lowQueryData.size() << std::endl;
 		std::cout << "AVG ROUNDS:        " << averageRangeCount << std::endl;
-
+		save_to_fvecsV1<float>(Config::test_id.c_str(),queryResult,(int) queryResult.size(),(int) queryResult[0].size());
 		time_t now = std::time(0);
 		time_t zero_point = 1635153971;//Let me set the time 2021.10.25. 17:27 as the zero point
 		float date = ((float)(now - zero_point)) / 86400;

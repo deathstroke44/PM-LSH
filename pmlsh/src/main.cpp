@@ -82,6 +82,9 @@ int main(int argc, char const* argv[])
 		if (argc > 8) {
 			Config::KNN = std::atoi(argv[8]);
 		}
+		if (argc > 9) {
+			Config::test_id = argv[9];
+		}
 
 		Config::t = MyFunc::Ccal_thresh(Config::lowDim, Config::alpha1);
 	}
@@ -122,7 +125,7 @@ int main(int argc, char const* argv[])
 
 	lowQueryData.resize(100);
 	highQueryData.resize(100);
-	myPmlsh.improvedSearchWithKth(highData, highQueryData, lowQueryData, real_result,Config.dataSetName);
+	myPmlsh.improvedSearchWithKth(highData, highQueryData, lowQueryData, real_result,Config::dataSetName);
 }
 
 
